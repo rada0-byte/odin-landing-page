@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+    margin: 0px;
+}
+
+ul {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 12px;
+ padding: 24px;
+  list-style-type: none;
+  margin:0px;
+  overflow: hidden;
+  background-color: #1F2937;
+  font-size: 24px;
+}
+ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.logo {
+    margin-right: auto;
+}
+.logo a {
+  font-weight: 500;
+  font-size: 32px;
+}
