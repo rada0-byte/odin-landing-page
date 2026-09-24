@@ -43,17 +43,21 @@ ul li a:hover {
   background-color: #1F2937;
   color: white;
   font-size: 18px;
+  flex-wrap: wrap;
 }
-.hero-img {
+.hero-text,
+.hero-image {
+  flex: 1 1 400px;
+}
+
+.hero-image img {
   width: 100%;
   height: auto;
-  flex-grow: 1;
-  flex-shrink: 1;
+  object-fit: cover;
 }
 .hero-text {
   padding: 24px;
-  flex-grow: 1;
-  flex-shrink: 1;
+
 }
 button {
   background-color: #3882F6;
@@ -62,4 +66,33 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
   cursor: pointer;
+}
+.content {
+  Color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 24px;
+  text-align: center;
+  justify-content: center;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.location {
+  flex: 1 1 220px;
+  text-align: center;
+}
+
+.location-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
